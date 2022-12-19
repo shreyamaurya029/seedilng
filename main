@@ -1,0 +1,73 @@
+HTML<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>About</title>
+</head>
+<body>
+    <main>        
+        <div class="border">
+           <div class="brand"><img src="icon.png" alt="" width="40px">
+            <div class="brandname">Seedling</div>
+            </div>
+           <div class="links">
+               <span> Aim</span>
+               <span>Trees</span>
+               <span>Sign In</span>
+           </div>
+        </div>
+    </main>
+
+</body>
+</html> -->
+
+CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+html, body {
+    width: auto!important; overflow-x: hidden!important;
+    background-color: yellowgreen;
+    /*background-color: rgb(240, 243, 171);*/
+}
+
+.border{
+    background-color: white;
+    position: absolute;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+    border-radius: 60px;
+    margin: auto;
+    left: 75px;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.brand{
+    padding: 5px;
+    vertical-align: middle;
+    display: flex;
+    font-size: 80px;
+
+}
+.links{
+    display: inline-flexbox;
+    font-size: 20px;
+}
+span{
+    padding: 25px;
+    cursor: pointer;
+
+}
+.brandname{
+    font-size: 23px;
+    color: brown;
+    padding: 20px;
+
+}
